@@ -1,0 +1,14 @@
+{
+  "classificationreport": {
+    "apps": [
+      "873GZ4J6LK.com.ccs.ms",
+      "873GZ4J6LK.com.ccs.ms.reporting-extension"
+    ]
+  },
+  "messagefilter": {
+    "apps": [
+      "873GZ4J6LK.com.ccs.ms",
+      "873GZ4J6LK.com.ccs.ms.reporting-extension"
+    ]
+  }
+}
