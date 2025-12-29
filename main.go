@@ -30,5 +30,10 @@ func main() {
 		c.String(http.StatusOK, "pong")
 	})
 
+	r.GET("/.well-known/apple-app-site-association", func(c *gin.Context) {
+		c.Header("Content-Type", "application/json")
+		c.File("./static/.well-known/apple-app-site-association")
+	})
+
 	r.Run(":8080")
 }
